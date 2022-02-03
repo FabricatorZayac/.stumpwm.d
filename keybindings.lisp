@@ -9,6 +9,17 @@
 (undefine-key *root-map* (kbd "C-c"))
 (undefine-key *root-map* (kbd "C-e"))
 (undefine-key *root-map* (kbd "s"))
+(undefine-key *root-map* (kbd "C-b"))
+(undefine-key *root-map* (kbd "C-m"))
+(undefine-key *root-map* (kbd "C-a"))
+
+(undefine-key *root-map* (kbd "C-p"))
+(undefine-key *root-map* (kbd "C-n"))
+(undefine-key *root-map* (kbd "C-l"))
+(undefine-key *root-map* (kbd "C-k"))
+(undefine-key *root-map* (kbd "C-w"))
+(undefine-key *root-map* (kbd "C-SPC"))
+(undefine-key *root-map* (kbd "C-RET"))
 
 (define-key *top-map* (kbd "s-RET") "term")
 (define-key *top-map* (kbd "Print") "scrot")
